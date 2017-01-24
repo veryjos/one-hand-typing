@@ -61,22 +61,22 @@ CGKeyCode swapKeys(CGKeyCode keycode) {
   if (isCapsPressed) {
     switch(keycode) {
       // asdfg row
-      case _A:      keycode = _COLON;   break;
-      case _S:      keycode = _L;       break;
+      case _A:      keycode = _H;       break;
+      case _S:      keycode = _J;       break;
       case _D:      keycode = _K;       break;
-      case _F:      keycode = _J;       break;
-      case _G:      keycode = _H;       break;
+      case _F:      keycode = _L;       break;
+      case _G:      keycode = _COLON;   break;
       // qwerty row
-      case _Q:      keycode = _P;       break;
-      case _W:      keycode = _O;       break;
+      case _Q:      keycode = _Y;       break;
+      case _W:      keycode = _U;       break;
       case _E:      keycode = _I;       break;
-      case _R:      keycode = _U;       break;
-      case _T:      keycode = _Y;       break;
+      case _R:      keycode = _O;       break;
+      case _T:      keycode = _P;       break;
       // zxcvb row
-      case _Z:      keycode = _PERIOD;  break;
-      case _X:      keycode = _COMMA;   break;
-      case _C:      keycode = _M;       break;
-      case _V:      keycode = _N;       break;
+      case _Z:      keycode = _N;       break;
+      case _X:      keycode = _M;       break;
+      case _C:      keycode = _COMMA;   break;
+      case _V:      keycode = _PERIOD;  break;
       // 12345 row
       case _1:      keycode = _0;       break;
       case _2:      keycode = _9;       break;
@@ -85,11 +85,9 @@ CGKeyCode swapKeys(CGKeyCode keycode) {
       case _5:      keycode = _6;       break;
       // Special keys
       case _SPACE: keycode = _RETURN; break;
-      case _TAB: keycode = _SINGLE_QUOTE; break;
-      case _GRAVE_ACCENT: keycode = _DELETE; break;
+      case _TAB: keycode = _DELETE; break;
     }
   }
 
   return keycode;
 }
-
