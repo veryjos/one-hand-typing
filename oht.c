@@ -66,6 +66,7 @@ CGKeyCode swapKeys(CGKeyCode keycode) {
       case _D:      keycode = _K;       break;
       case _F:      keycode = _L;       break;
       case _G:      keycode = _COLON;   break;
+      case _H:      keycode = _SINGLE_QUOTE; break;
       // qwerty row
       case _Q:      keycode = _Y;       break;
       case _W:      keycode = _U;       break;
@@ -77,6 +78,7 @@ CGKeyCode swapKeys(CGKeyCode keycode) {
       case _X:      keycode = _M;       break;
       case _C:      keycode = _COMMA;   break;
       case _V:      keycode = _PERIOD;  break;
+      case _B:      keycode = _FORWARD_SLASH; break;
       // 12345 row
       case _1:      keycode = _0;       break;
       case _2:      keycode = _9;       break;
