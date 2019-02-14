@@ -88,6 +88,7 @@ CGKeyCode swapKeys(CGKeyCode keycode) {
       // Special keys
       case _SPACE: keycode = _RETURN; break;
       case _TAB: keycode = _DELETE; break;
+      case _GRAVE_ACCENT: keycode = _DASH; break;
     }
   }
 
