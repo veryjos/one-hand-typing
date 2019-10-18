@@ -1,0 +1,15 @@
+name: build
+on:
+  push:
+    branches:
+      - github_actions
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+    - name: Fetch onehand
+      run: git clone https://github.com/veryjos/one-hand-typing.git
+    - name: Build onehand
+      run: |
+        cd one-hand-typing
+        make
