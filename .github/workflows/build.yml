@@ -13,10 +13,8 @@ jobs:
       run: |
         cd one-hand-typing
         make
-        ls
-        echo $PWD
     - name: Upload artifacts
       uses: actions/upload-artifact@master
       with:
         name: binary
-        path: ../oht
+        path: ./one-hand-typing/oht
